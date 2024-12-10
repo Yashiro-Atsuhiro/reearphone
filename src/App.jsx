@@ -12,11 +12,18 @@ function App() {
     <>
     <Header />
     <SliderComponent />
+    <div className='grid-container'>
+    <div className="productcate" id='productcateleft'>
     <Content />
+    </div>
+    <div className="productcate" id='productcateright'>
     <Checked />
+    </div>
+    </div>
     <Footer />
     </>
   )
 }
 
 export default App
+
