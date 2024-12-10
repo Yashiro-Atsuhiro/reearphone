@@ -1,4 +1,6 @@
 import { useState } from 'react'
+
+// aaa
 import Header from'./component/header'
 import Footer from './component/footer'
 import SliderComponent from './component/swiper'
